@@ -10,5 +10,5 @@ age = "21"
 
 #print variables, using .format to allocate the variables / .tile to formate text all first letter to Uppercase
 
-print("Your full name is {} and your age {}".format((fullName.title()), (age)))
+print("Your full name is {} \n and your age {}".format((fullName.title()), (age)))
 

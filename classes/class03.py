@@ -9,4 +9,5 @@ salary = float(input("How about your salary? "))
 
 #print the variables and type
 
-print("Your full name is {}, your age {} and your salary {:.2f}".format((fullName.title()), (age), (salary)), type(age))
+print("\nYour full name is {},\n your age {} \n and your salary {:.2f} \n".format((fullName.title()), (age), (salary)), type(age))
+
