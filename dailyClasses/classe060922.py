@@ -9,7 +9,7 @@ age = input("Now write your age: ")
 #sum of earnings
 contador = 0
 
-while contador < 2:
+while contador < 3:
     print(f'Valor do contador é {contador}')
     monthGain = int(input("How much do you sell last month? "))
 
@@ -18,7 +18,7 @@ while contador < 2:
     averageMonth = averageMonth + averageMonth
 
     contador += 1
-else: 
+else:
     print("Your name: {} \n Your age: {}  \n total ganho no mes {}".format((fullName.title()), (age), (averageMonth)))
 
    
