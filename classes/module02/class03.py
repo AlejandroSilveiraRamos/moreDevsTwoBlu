@@ -4,7 +4,7 @@ num = float(input("Insert any number to show in multiplication table: "))
 
 contador = 0
 
-while contador < 9:
+while contador < 11:
     print(" {} X {} = {} ".format( num, contador, num*contador ))
 
     contador += 1
