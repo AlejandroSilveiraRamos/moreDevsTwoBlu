@@ -1,6 +1,6 @@
 # multiplication table
 
-num = float(input("Insert any number to show in multiplicatin table: "))
+num = float(input("Insert any number to show in multiplication table: "))
 
 contador = 0
 
@@ -9,5 +9,5 @@ while contador < 9:
 
     contador += 1
 else:
-    print("Acabou")
+    print("All results already")
     
