@@ -1,29 +1,16 @@
-#dojo game 06 learn
+#dojo game 06 learn - sum of year earnings
+#variables
+s = 0
+months = ("January", "February",  "March", "April", "May", "June", "July", "August", "September","October", "November", "December")
+nextMonth = 0
 
-#user
-#name = input("Write your first name: ")
-#lastName = input("now your last name: ")
-#fullName = name + " " + lastName
-#age = input("Now write your age: ")
+#for to looping all months
+for c in range (0, 12):
+    monthGain = int(input("How much do you in {} sell? ".format(months[nextMonth])))
+    nextMonth += 1
+    s += monthGain
+print(f"Your total gain in this year: {s}")    
 
-#sum of earnings
-contador = 0
-
-while contador < 2:
-    print(f'Valor do contador é {contador}')
-    monthGain = int(input("How much do you sell last month? "))
-    
-    total = None
-
-    if total == None:
-        total = monthGain
-        print("entrou {} {}".format(total, monthGain))
-    else:
-        monthGain = total + monthGain
-
-    contador += 1
-else:
-    print("Your name: {} \n Your age: {}  \n total ganho no mes {}".format((fullName.title()), (age), (monthGain)))
 
    
 

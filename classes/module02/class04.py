@@ -15,6 +15,6 @@ print(" First stuff: \n Is numeric: {} \n is alpha: {} \n is num: {} \n is space
     stuff.isspace(),
     stuff.isdigit(),
     spaceBtw
-    ),
+    )
 )
 
